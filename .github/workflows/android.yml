@@ -27,7 +27,7 @@ jobs:
       run: ./gradlew assembleMiniDebug
 
     - name: Archive artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v6
       with:
         name: outputs-apk-minidebug
         path: app/build/outputs/apk/miniDebug
