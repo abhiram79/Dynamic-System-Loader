@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "vegabobo.dsusideloader"
+    namespace = "abhiram79.dsl"
     compileSdk = 33
 
     defaultConfig {

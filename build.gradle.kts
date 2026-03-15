@@ -19,7 +19,7 @@ plugins {
 
 val versionCode by extra { 8 }
 val versionName by extra { "2.03" }
-val packageName by extra { "vegabobo.dsusideloader" }
+val packageName by extra { "abhiram79.dsl" }
 
 task("clean") {
     delete(project.buildDir)

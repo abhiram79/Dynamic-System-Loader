@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <permissions>
-    <privapp-permissions package="vegabobo.dsusideloader">
+    <privapp-permissions package="abhiram79.dsl">
 
         <!-- Privileged permissions -->
         <permission name="android.permission.INSTALL_DYNAMIC_SYSTEM" />
