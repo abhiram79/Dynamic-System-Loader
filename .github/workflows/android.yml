@@ -5,10 +5,10 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+  workflow_dispatch:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -22,10 +22,10 @@ jobs:
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
-      
+
     - name: Build with Gradle
       run: ./gradlew assembleMiniDebug
-      
+
     - name: Archive artifacts
       uses: actions/upload-artifact@v3
       with:
